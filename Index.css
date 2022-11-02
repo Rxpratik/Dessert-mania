@@ -59,7 +59,7 @@ body{
 }
 #Home{
   width: 100%;
-  height: 120vh;
+  height: 400px;
   background-color: #2E1503;
   text-align: center;
   color: white;
@@ -88,4 +88,31 @@ footer a{
   pointer-events: cursor;
   padding-left: 17px;
   padding-right: 17px;
+}
+#About{
+  width: 100%;
+  height: 300px;
+  background-size: 280px 280px;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-image: url('/images/Waiter.png');
+}
+#About h2{
+  position: absolute;
+  right: 20px; padding-top: 80px; color: white;
+}
+#About h3{
+  position: absolute;
+  right: 10px; padding-top: 130px; color: white;
+}
+#Desserts{
+  width: 100%;
+  line-height: 50px;
+}
+#Desserts h2{
+  position: absolute;
+  left: 20px; padding-top:20px; color: white;
+}
+#Dessert-list{
+  background-color: #2E1503;
 }
